@@ -204,6 +204,8 @@ main {
     gap: 24px;
 }
 
+/* get the latest details section style */
+
 .get-info {
     margin: 128px 240px;
     background-image: url('../images/Rectangle\ 9.png');
