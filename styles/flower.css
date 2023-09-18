@@ -1,0 +1,275 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background: #FFF;
+    margin: 0px;
+}
+
+/* Header style */
+header {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    gap: 90px;
+    padding: 50px 240px 0px 240px;
+}
+
+.head-style {}
+
+.head-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    width: 700px;
+}
+
+.head-description {
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+/* main section style */
+main {
+    width: 1920px;
+}
+
+/* featured flowers section style */
+.featured-flowers {
+    margin: 178px 240px 0px 240px;
+
+}
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.featured-description {
+    margin-top: 0px;
+    margin-bottom: 48px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.flowers {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.flowers-style1 {
+    width: 312px;
+    height: 428px;
+    border: none;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 76px 0px 76px;
+}
+
+.flowers-style2 {
+    width: 370px;
+    height: 370px;
+    border: none;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px 47px;
+}
+
+.flowers-style3 {
+    width: 314px;
+    height: 471px;
+    border: none;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 75px;
+}
+
+.flower-name {
+    margin-top: 20px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.info {
+    margin-top: 128px;
+    padding: 86px 175px 87px 175px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info-pic {
+    text-align: center;
+}
+
+.info-title {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* hot deal style */
+
+.hot-deal {
+    margin-top: 128px;
+    margin-bottom: 0px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 100px 430px 100px 395px;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.red {
+    color: #E55473;
+}
+
+.hot-deal-info {
+    text-align: center;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+/* social media style */
+.social-media {
+    margin-top: 128px;
+    margin-bottom: 0px;
+}
+
+.social-media-info {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.social-media-title {
+    color: #272727;
+
+
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.social-media-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social-media-contents {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.get-info {
+    margin: 128px 240px;
+    background-image: url('../images/Rectangle\ 9.png');
+    text-align: center;
+    padding-top: 122px;
+    padding-bottom: 80px;
+}
+
+.get-info-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.get-info-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+.get-info-mail {
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 16px;
+}
+
+::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer {
+    background: #111010;
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.white {
+    color: #FFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.footer-rights {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
